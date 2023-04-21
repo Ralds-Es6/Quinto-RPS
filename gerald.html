@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Rock Paper Scissors</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <meta name="viewport" charset="UTF-8" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="gerald.css">
+</head>
+
+<body>
+  <div class="grid-container">
+    <h1>Rock Paper Scissors</h1>
+    <p>Click on your choice and discover who wins...</p>
+    <div id="rock" class="far fa-hand-rock" onclick="choose('rock');"></div>
+    <div id="paper" class="far fa-hand-paper" onclick="choose('paper');"></div>
+    <div id="scissors" class="far fa-hand-scissors" onclick="choose('scissors');"></div>
+    <div id="result"></div>
+    <div class="score">Your score:<div id="yourScore"></div></div>
+    <div id="compGuess"></div>
+    <div class="score">Comp score:<div id="compScore"></div></div>    
+  </div>
+
+  <script src="gerald.js"></script>
+ </body>
+
+</html>
