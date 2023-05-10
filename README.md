@@ -1,2 +1,1 @@
-# Quinto-RPS
-RPS using html,css and javascript.
+Rock Paper Scissor
